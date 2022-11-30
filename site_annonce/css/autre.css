@@ -1,0 +1,39 @@
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    transition: 0.1s;
+    outline-color: #7db500;
+    outline-style: solid;
+    outline-width: 2px;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+
+.error {
+    outline-color: red;
+    outline-style: solid;
+    outline-width: 2px;
+}
+
+.correct {
+    outline-color: #7db500;
+    outline-style: solid;
+    outline-width: 2px;
+}
+
+.error_email {
+    display: none;
+    position: relative;
+    top: 5px;
+    color: red;
+}
+
+.error_password {
+    display: none;
+    position: relative;
+    top: 5px;
+    color: red;
+    width: 60px;
+}

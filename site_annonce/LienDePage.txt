@@ -1,0 +1,6 @@
+Dashboard admin:
+http://localhost/projetPW/manager/index1.php
+
+Dashboard membre:
+http://localhost/projetPW/manager/index.php
+Accessible directement a partir de la d'accueil
